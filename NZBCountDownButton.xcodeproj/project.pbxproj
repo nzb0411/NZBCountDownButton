@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A0952C2082791B0024DEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A0952B2082791B0024DEBC /* AppDelegate.m */; };
+		91A0952F2082791B0024DEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A0952E2082791B0024DEBC /* ViewController.m */; };
+		91A095322082791B0024DEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A095302082791B0024DEBC /* Main.storyboard */; };
+		91A095342082791B0024DEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A095332082791B0024DEBC /* Assets.xcassets */; };
+		91A095372082791B0024DEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A095352082791B0024DEBC /* LaunchScreen.storyboard */; };
+		91A0953A2082791B0024DEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A095392082791B0024DEBC /* main.m */; };
+		91A09542208279900024DEBC /* NZBCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A09541208279900024DEBC /* NZBCountDownButton.m */; };
+		F023885A0C7E59D1B0F403F9 /* libPods-NZBCountDownButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF34C786A707060E5C0F1E2 /* libPods-NZBCountDownButton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		190320ECDBB5A3215EB4FF09 /* Pods-NZBCountDownButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZBCountDownButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NZBCountDownButton/Pods-NZBCountDownButton.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF34C786A707060E5C0F1E2 /* libPods-NZBCountDownButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NZBCountDownButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71825314EF8BD2E54E1AFD5A /* Pods-NZBCountDownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZBCountDownButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-NZBCountDownButton/Pods-NZBCountDownButton.release.xcconfig"; sourceTree = "<group>"; };
+		91A095272082791B0024DEBC /* NZBCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZBCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A0952A2082791B0024DEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91A0952B2082791B0024DEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91A0952D2082791B0024DEBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91A0952E2082791B0024DEBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91A095312082791B0024DEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A095332082791B0024DEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A095362082791B0024DEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91A095382082791B0024DEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A095392082791B0024DEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91A09540208279900024DEBC /* NZBCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NZBCountDownButton.h; sourceTree = "<group>"; };
+		91A09541208279900024DEBC /* NZBCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZBCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A095242082791B0024DEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F023885A0C7E59D1B0F403F9 /* libPods-NZBCountDownButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A0951E2082791A0024DEBC = {
+			isa = PBXGroup;
+			children = (
+				91A095292082791B0024DEBC /* NZBCountDownButton */,
+				91A095282082791B0024DEBC /* Products */,
+				A65C271E4A5EE0C6AEC11935 /* Pods */,
+				A625C060376A4C83F2F5B356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91A095282082791B0024DEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A095272082791B0024DEBC /* NZBCountDownButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A095292082791B0024DEBC /* NZBCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				91A0952A2082791B0024DEBC /* AppDelegate.h */,
+				91A0952B2082791B0024DEBC /* AppDelegate.m */,
+				91A0952D2082791B0024DEBC /* ViewController.h */,
+				91A0952E2082791B0024DEBC /* ViewController.m */,
+				91A09540208279900024DEBC /* NZBCountDownButton.h */,
+				91A09541208279900024DEBC /* NZBCountDownButton.m */,
+				91A095302082791B0024DEBC /* Main.storyboard */,
+				91A095332082791B0024DEBC /* Assets.xcassets */,
+				91A095352082791B0024DEBC /* LaunchScreen.storyboard */,
+				91A095382082791B0024DEBC /* Info.plist */,
+				91A095392082791B0024DEBC /* main.m */,
+			);
+			path = NZBCountDownButton;
+			sourceTree = "<group>";
+		};
+		A625C060376A4C83F2F5B356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF34C786A707060E5C0F1E2 /* libPods-NZBCountDownButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A65C271E4A5EE0C6AEC11935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				190320ECDBB5A3215EB4FF09 /* Pods-NZBCountDownButton.debug.xcconfig */,
+				71825314EF8BD2E54E1AFD5A /* Pods-NZBCountDownButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A095262082791B0024DEBC /* NZBCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A0953D2082791B0024DEBC /* Build configuration list for PBXNativeTarget "NZBCountDownButton" */;
+			buildPhases = (
+				4B6DCEC09BD068B505D60BF6 /* [CP] Check Pods Manifest.lock */,
+				91A095232082791B0024DEBC /* Sources */,
+				91A095242082791B0024DEBC /* Frameworks */,
+				91A095252082791B0024DEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZBCountDownButton;
+			productName = NZBCountDownButton;
+			productReference = 91A095272082791B0024DEBC /* NZBCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A0951F2082791A0024DEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "聂子博";
+				TargetAttributes = {
+					91A095262082791B0024DEBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91A095222082791A0024DEBC /* Build configuration list for PBXProject "NZBCountDownButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A0951E2082791A0024DEBC;
+			productRefGroup = 91A095282082791B0024DEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A095262082791B0024DEBC /* NZBCountDownButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A095252082791B0024DEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A095372082791B0024DEBC /* LaunchScreen.storyboard in Resources */,
+				91A095342082791B0024DEBC /* Assets.xcassets in Resources */,
+				91A095322082791B0024DEBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B6DCEC09BD068B505D60BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NZBCountDownButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A095232082791B0024DEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A0952F2082791B0024DEBC /* ViewController.m in Sources */,
+				91A0953A2082791B0024DEBC /* main.m in Sources */,
+				91A09542208279900024DEBC /* NZBCountDownButton.m in Sources */,
+				91A0952C2082791B0024DEBC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91A095302082791B0024DEBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A095312082791B0024DEBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91A095352082791B0024DEBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A095362082791B0024DEBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A0953B2082791B0024DEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91A0953C2082791B0024DEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A0953E2082791B0024DEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190320ECDBB5A3215EB4FF09 /* Pods-NZBCountDownButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NZBCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niezb.NZBCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A0953F2082791B0024DEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71825314EF8BD2E54E1AFD5A /* Pods-NZBCountDownButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NZBCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niezb.NZBCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A095222082791A0024DEBC /* Build configuration list for PBXProject "NZBCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0953B2082791B0024DEBC /* Debug */,
+				91A0953C2082791B0024DEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A0953D2082791B0024DEBC /* Build configuration list for PBXNativeTarget "NZBCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0953E2082791B0024DEBC /* Debug */,
+				91A0953F2082791B0024DEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A0951F2082791A0024DEBC /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MSWeakTimer (1.1.0)
+
+DEPENDENCIES:
+  - MSWeakTimer (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MSWeakTimer
+
+SPEC CHECKSUMS:
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+
+PODFILE CHECKSUM: 3f9a5345d1a15c6db5043f53974d09d5e24dbb96
+
+COCOAPODS: 1.5.0
